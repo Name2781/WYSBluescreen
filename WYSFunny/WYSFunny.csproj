@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Update="metadata.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+
+
+    <ItemGroup>
+        <Analyzer Include="..\libs\GmmlInteropGenerator.dll" />
+    </ItemGroup>
+
+
+    <ItemGroup>
+      <Reference Include="GmmlConfig">
+        <HintPath>..\libs\GmmlConfig.dll</HintPath>
+      </Reference>
+      <Reference Include="GmmlHooker">
+        <HintPath>..\libs\GmmlHooker.dll</HintPath>
+      </Reference>
+      <Reference Include="GmmlInteropGenerator">
+        <HintPath>..\libs\GmmlInteropGenerator.dll</HintPath>
+      </Reference>
+      <Reference Include="GmmlPatcher">
+        <HintPath>..\libs\GmmlPatcher.dll</HintPath>
+      </Reference>
+      <Reference Include="UndertaleModLib">
+        <HintPath>..\libs\UndertaleModLib.dll</HintPath>
+      </Reference>
+      <Reference Include="WysApi">
+        <HintPath>..\libs\WysApi.dll</HintPath>
+      </Reference>
+      <Reference Include="WysModMenu">
+        <HintPath>..\libs\WysModMenu.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <Target Name="SetCurrentPath" AfterTargets="Build">
+        <WriteLinesToFile File="bin\current.txt" Overwrite="true" Lines="$(OutputPath)" />
+    </Target>
+
+</Project>

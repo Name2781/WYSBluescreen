@@ -1,0 +1,123 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "WYSFunny/1.0.0": {
+        "dependencies": {
+          "GmmlConfig": "1.0.0.0",
+          "GmmlHooker": "1.0.0.0",
+          "GmmlInteropGenerator": "1.0.0.0",
+          "GmmlPatcher": "1.0.0.0",
+          "UndertaleModLib": "0.4.0.4",
+          "WysApi": "1.0.0.0",
+          "WysModMenu": "1.0.0.0"
+        },
+        "runtime": {
+          "WYSFunny.dll": {}
+        }
+      },
+      "GmmlConfig/1.0.0.0": {
+        "runtime": {
+          "GmmlConfig.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "GmmlHooker/1.0.0.0": {
+        "runtime": {
+          "GmmlHooker.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "GmmlInteropGenerator/1.0.0.0": {
+        "runtime": {
+          "GmmlInteropGenerator.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "GmmlPatcher/1.0.0.0": {
+        "runtime": {
+          "GmmlPatcher.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "UndertaleModLib/0.4.0.4": {
+        "runtime": {
+          "UndertaleModLib.dll": {
+            "assemblyVersion": "0.4.0.4",
+            "fileVersion": "0.4.0.4"
+          }
+        }
+      },
+      "WysApi/1.0.0.0": {
+        "runtime": {
+          "WysApi.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "WysModMenu/1.0.0.0": {
+        "runtime": {
+          "WysModMenu.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WYSFunny/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GmmlConfig/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GmmlHooker/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GmmlInteropGenerator/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GmmlPatcher/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UndertaleModLib/0.4.0.4": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WysApi/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WysModMenu/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
